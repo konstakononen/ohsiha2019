@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <header>
+            <title>Ensimmäinen sivu</title>
+        </header>
+        <script src="script.js"></script>
+        <link rel="stylesheet" href="test.css">
+    </head>
+
+    <body>
+        <h1>
+            <Center>
+                Kirjoitusrunko nettisivulla
+            </Center>
+        </h1>
+
+        <p id="lorem">
+            Lorem <strong> Ipsum </strong> ja niin edelleen 
+        </p>
+        <p>
+            <Button onclick="runCode()"> Click me </Button>
+        </p>
+        
+        <script>
+        function oma(){
+            document.getElementById("lorem").innerHTML = Date();
+        }
+        </script>
+        
+        <Button onclick="oma()"> Kokeile minua </Button>
+
+        <div class="testi">
+            <center>
+                <strong>paragraph</strong> 
+            </center>
+
+            <ul>
+                <li> appelsiini </li>
+                <li> omena </li>
+                <li> päärynä </li>
+            <ol>
+                <li> mites </li>
+                <li> tämä </li>
+                <li> toimii </li>
+
+        </div>
+
+    </body>
+
+</html>
+
